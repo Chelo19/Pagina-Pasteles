@@ -1,0 +1,111 @@
+.grid {
+	display: grid;
+	grid-template-columns: 24% 24% 24% 24%;
+	gap: 10px;
+	text-align: center;
+}
+
+.grid div{
+	padding: 1em;
+}
+
+.pruebas{
+	background-color: #c73870;
+	border: 5px solid black;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.generarPedidos{
+	background-color: #d135ea;
+	border: 10px solid;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.recibo{
+	margin-top: 10px;
+	background-color: #cbb3bc;
+	border: 10px solid;
+	border-radius: 10px;
+	padding: 30px;
+	text-align: center;
+	font-family: Arial;
+	font-size: 40px;
+}
+
+button{
+	border: 5px solid black;
+	border-radius: 10px;
+}
+
+.producto{
+	background-color: #b79b48;
+	font-family: Arial;
+	font-size: 30px;
+	height: 200px;
+}
+
+.producto:hover{
+	border: 6px solid #1bcf00;
+	transition: border .5s;
+}
+
+.contador{
+	background-color: #80ef10;
+	font-family: Arial;
+	font-size: 30px;
+}
+
+.costo{
+	background-color: #7e48b7;
+	font-family: Arial;
+	font-size: 30px;
+}
+
+.cancelar{
+	background-color: #e7181b;
+	font-family: Arial;
+	font-size: 30px;
+}
+
+.cancelar:hover{
+	border: 6px solid #b1c906;
+	transition: border .5s;
+}
+
+#cancelarOrden{
+	margin-top: 10px;
+	background-color: #e7181b;
+	font-size: 40px;
+	font-family: Arial;
+	border: 10px solid;
+	border-radius: 10px;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 5px;
+	padding: 10px;
+	display: inline-block;
+}
+
+#cancelarOrden:hover{
+	border: 9px solid #e3f945;
+	transition: border .5s;
+}
+
+.total{
+	background-color: #87787e;
+	font-size: 40px;
+	font-family: Arial;
+	border: 10px solid;
+	border-radius: 10px;
+	text-align: center;
+	margin-top: 10px;
+	padding: 10px;
+	display: inline-block;
+}
+
+.total:hover{
+	border: 9px solid #0dc2c1;
+	transition: border .5s;
+}
